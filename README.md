@@ -1,11 +1,12 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/y_fEcNZn)
 # 🏥 Sistema de Gestión para una Clínica
 
 ## 👤 Información del Alumno
 
 ### 📋 Datos Personales
-- **Nombre y Apellido**: [Completar con nombre y apellido]
+- **Nombre y Apellido**: [jeremias villach]
 - **Ciclo Lectivo**: 2025
-- **Carrera**: [Completar con nombre de la carrera]
+- **Carrera**: [ingenieria en informatica]
 
 ## ⏰ Información Importante sobre la Entrega
 
@@ -345,3 +346,29 @@ El sistema debe incluir pruebas unitarias utilizando el módulo `unittest`, que 
 - ✅ Confirmar que los turnos y recetas se guardan correctamente en la historia clínica del paciente.
 
 ---
+---
+
+## ▶️ Cómo ejecutar el sistema
+
+1. Abrí una terminal dentro de la carpeta del proyecto.
+2. Ejecutá:
+
+```bash
+python3 cli.py
+Se abrirá un menú por consola para gestionar pacientes, médicos, turnos y recetas.
+---
+
+## 🧪 Cómo ejecutar las pruebas
+
+1. En la raíz del proyecto, escribí este comando:
+
+```bash
+python3 -m unittest discover -s tests
+Esto va a correr todos los tests ubicados en la carpeta tests.
+El sistema está organizado así:
+
+modelo/: contiene todas las clases (Paciente, Médico, Turno, Receta, etc.)
+
+cli.py: es la interfaz de consola para el usuario.
+
+tests/: contiene las pruebas automáticas.
