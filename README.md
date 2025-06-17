@@ -346,3 +346,29 @@ El sistema debe incluir pruebas unitarias utilizando el módulo `unittest`, que 
 - ✅ Confirmar que los turnos y recetas se guardan correctamente en la historia clínica del paciente.
 
 ---
+---
+
+## ▶️ Cómo ejecutar el sistema
+
+1. Abrí una terminal dentro de la carpeta del proyecto.
+2. Ejecutá:
+
+```bash
+python3 cli.py
+Se abrirá un menú por consola para gestionar pacientes, médicos, turnos y recetas.
+---
+
+## 🧪 Cómo ejecutar las pruebas
+
+1. En la raíz del proyecto, escribí este comando:
+
+```bash
+python3 -m unittest discover -s tests
+Esto va a correr todos los tests ubicados en la carpeta tests.
+El sistema está organizado así:
+
+modelo/: contiene todas las clases (Paciente, Médico, Turno, Receta, etc.)
+
+cli.py: es la interfaz de consola para el usuario.
+
+tests/: contiene las pruebas automáticas.
